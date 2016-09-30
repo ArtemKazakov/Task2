@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://epam.com/restaurant/menu"
+           xmlns:rm="http://epam.com/restaurant/menu"
+           elementFormDefault="qualified">
+
+    <xsd:element name="menu">
+        <xsd:complexType>
+            <xsd:choice minOccurs="1" maxOccurs="unbounded">
+                <xsd:element name="food" type="rm:foodType"/>
+            </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="foodType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="image" type="xsd:anyURI"/>
+            <xsd:element name="portion" type="rm:portionType"/>
+            <xsd:element name="description-price" type="rm:description-priceType" minOccurs="1" maxOccurs="3"/>
+        </xsd:sequence>
+        <xsd:attribute name="type" type="rm:dishType" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="description-priceType">
+        <xsd:sequence>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="price" type="rm:priceType" default="0"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="dishType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Cold Snack"/>
+            <xsd:enumeration value="Hot Snack"/>
+            <xsd:enumeration value="Breakfast"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="portionType">
+        <xsd:simpleContent>
+            <xsd:extension base="rm:portion-valueType">
+                <xsd:attribute name="measure" type="rm:portion-measureType" use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+    <xsd:simpleType name="portion-measureType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="грамм."/>
+            <xsd:enumeration value="шт."/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="portion-valueType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(([0-9]{1,3}/){0,3})[0-9]{1,3}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="priceType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:integer" >
+                <xsd:attribute name="unit" type="xsd:string" fixed="руб." use="required"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+
+
+</xsd:schema>
+

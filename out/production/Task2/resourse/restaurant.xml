@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns="http://epam.com/restaurant/menu">
+    <food type="Cold Snack">
+        <name>Ассорти рыбное</name>
+        <image></image>
+        <portion measure="грамм.">100/20/15</portion>
+        <description-price>
+            <description>Слабосоленая форель, семга</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Тарталетки с красной икрой</name>
+        <image></image>
+        <portion measure="грамм.">60/50</portion>
+        <description-price>
+            <description>Тарталетки с красной икрой</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Закуска по-русски</name>
+        <image></image>
+        <portion measure="грамм.">70/50/2/10</portion>
+        <description-price>
+            <description>Кусочки атлантической сельди с отварным картофелем, луком, димоном и зеленью</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Куриный рулет</name>
+        <image></image>
+        <portion measure="грамм.">100/5</portion>
+        <description-price>
+            <description>Куриный рулет собственного производства</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Бастурма</name>
+        <image></image>
+        <portion measure="грамм.">50/5</portion>
+        <description-price>
+            <description>Вяленая вырезка из говяжьего мяса</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Ассорти мясное</name>
+        <image></image>
+        <portion measure="грамм.">100/30</portion>
+        <description-price>
+            <description>Нарезка из буженины, бастурмы, куриного рулета собственного производства и колбасы</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Язык отварной</name>
+        <image></image>
+        <portion measure="грамм.">80/20/1</portion>
+        <description-price>
+            <description>Нарезка нежного говяжьего языка, подается с хреном</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Ассорти баклажаны</name>
+        <image></image>
+        <portion measure="грамм.">100/5</portion>
+        <description-price>
+            <description>Жаренные баклажаны с помидорами</description>
+            <price unit="руб.">0</price>
+        </description-price>
+        <description-price>
+            <description>Жаренные баклажаны с чесноком</description>
+            <price unit="руб.">0</price>
+        </description-price>
+        <description-price>
+            <description>Жаренные баклажаны с орехами</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Соленья по-домашнему</name>
+        <image></image>
+        <portion measure="грамм.">150/10</portion>
+        <description-price>
+            <description>Маринованые овощи</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Бабушкины угощения</name>
+        <image></image>
+        <portion measure="грамм.">120/20/10</portion>
+        <description-price>
+            <description>Ассорти из маринованых грибов</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Сырная тарелка</name>
+        <image></image>
+        <portion measure="грамм.">100/5</portion>
+        <description-price>
+            <description>Сыры Чечел, дор блю, российский, мраморный</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Брынза</name>
+        <image></image>
+        <portion measure="грамм.">75/5</portion>
+        <description-price>
+            <description>Рассольный сыр, изготавливаемый из овечьего молока</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Зелень</name>
+        <image></image>
+        <portion measure="грамм.">30</portion>
+        <description-price>
+            <description>Кинза, лук, петрушка, укроп, базилик</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Ассорти овощное</name>
+        <image></image>
+        <portion measure="грамм.">150/10</portion>
+        <description-price>
+            <description>Свежие помидоры, болгарский перец, огурцы, редис и зелень</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Овощной букет</name>
+        <image></image>
+        <portion measure="грамм.">150/10</portion>
+        <description-price>
+            <description>Корейская морковь, капуста, фунчоза</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Овощи по-армянски</name>
+        <image></image>
+        <portion measure="грамм.">150/40</portion>
+        <description-price>
+            <description>Мелко нарезанные свежие помидоры, огурцы, болгарский перец, урокп, базилик, кинза, лист салата, зелень</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Сеньор Помидор</name>
+        <image></image>
+        <portion measure="грамм.">150/1</portion>
+        <description-price>
+            <description>Помидор, фаршированный сырным муссом</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Фестиваль салатов</name>
+        <image></image>
+        <portion measure="грамм.">400/10</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Оливки, маслины</name>
+        <image></image>
+        <portion measure="грамм.">50</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Лимон</name>
+        <image></image>
+        <portion measure="грамм.">60</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Cold Snack">
+        <name>Мацони</name>
+        <image></image>
+        <portion measure="грамм.">300</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Лобио с шампиньонами</name>
+        <image></image>
+        <portion measure="грамм.">150/5</portion>
+        <description-price>
+            <description>Фасоль с шампиньонами и грецким орехом</description>
+            <price unit="руб.">105</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Жульен</name>
+        <image></image>
+        <portion measure="грамм.">120/1</portion>
+        <description-price>
+            <description>с курицей</description>
+            <price unit="руб.">145</price>
+        </description-price>
+        <description-price>
+            <description>с грибами</description>
+            <price unit="руб.">155</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Ахтамар мясной</name>
+        <image></image>
+        <portion measure="шт.">1</portion>
+        <description-price>
+            <description>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</description>
+            <price unit="руб.">165</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Ахтамар с овощами</name>
+        <image></image>
+        <portion measure="шт.">1</portion>
+        <description-price>
+            <description>Сыр, помидоры, зелень, запеченные на мангале в лаваше</description>
+            <price unit="руб.">150</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Сюрприз</name>
+        <image></image>
+        <portion measure="шт.">1</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">260</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Креветки</name>
+        <image></image>
+        <portion measure="грамм.">120/30</portion>
+        <description-price>
+            <description>с отварные</description>
+            <price unit="руб.">135</price>
+        </description-price>
+        <description-price>
+            <description>с жаренные</description>
+            <price unit="руб.">155</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Мидии по-турецки</name>
+        <image></image>
+        <portion measure="грамм.">150/30</portion>
+        <description-price>
+            <description>Мидии, фаршированные сыром и грецким орехом</description>
+            <price unit="руб.">190</price>
+        </description-price>
+    </food>
+
+    <food type="Hot Snack">
+        <name>Эскарго</name>
+        <image></image>
+        <portion measure="шт.">12</portion>
+        <description-price>
+            <description>Виноградные улитки, фаршированные по бургундски</description>
+            <price unit="руб.">230</price>
+        </description-price>
+    </food>
+
+    <food type="Breakfast">
+        <name>Глазунья</name>
+        <image></image>
+        <portion measure="грамм.">150</portion>
+        <description-price>
+            <description>2 яйца (на выбор: ветчина, сыр, помидоры)</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Breakfast">
+        <name>Омлет</name>
+        <image></image>
+        <portion measure="грамм.">100</portion>
+        <description-price>
+            <description></description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+    <food type="Breakfast">
+        <name>Блинчики с мясом</name>
+        <image></image>
+        <portion measure="грамм.">150</portion>
+        <description-price>
+            <description>Жаренные блинчики с мясом</description>
+            <price unit="руб.">0</price>
+        </description-price>
+    </food>
+
+</menu>
