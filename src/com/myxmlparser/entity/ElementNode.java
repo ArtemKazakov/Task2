@@ -1,4 +1,4 @@
-package com.epam.task2.myxmlparser.entity;
+package com.myxmlparser.entity;
 
 import java.util.LinkedList;
 

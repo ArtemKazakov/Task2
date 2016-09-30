@@ -1,6 +1,6 @@
-package com.epam.task2.myxmlparser.entity;
+package com.myxmlparser.entity;
 
-import com.epam.task2.myxmlparser.entity.Node;
+import com.myxmlparser.entity.Node;
 
 /**
  * Created by ASUS on 28.09.2016.

@@ -2,9 +2,10 @@ package com.epam.task2.myxmlparser;
 
 import com.epam.task2.entity.Food;
 import com.epam.task2.entity.Price;
-import com.epam.task2.myxmlparser.entity.ElementNode;
-import com.epam.task2.myxmlparser.entity.Node;
+import com.epam.myxmlparser.entity.ElementNode;
+import com.epam.myxmlparser.entity.Node;
 import com.epam.task2.tool.Printer;
+import com.epam.myxmlparser.XmlParser;
 
 import java.io.IOException;
 import java.util.ArrayList;

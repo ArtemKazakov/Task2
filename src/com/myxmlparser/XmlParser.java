@@ -1,7 +1,7 @@
-package com.epam.task2.myxmlparser;
+package com.myxmlparser;
 
-import com.epam.task2.myxmlparser.entity.ElementNode;
-import com.epam.task2.myxmlparser.entity.TextNode;
+import com.myxmlparser.entity.ElementNode;
+import com.myxmlparser.entity.TextNode;
 
 import java.io.BufferedReader;
 import java.io.File;
