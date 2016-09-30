@@ -14,12 +14,13 @@ import java.io.IOException;
 public class XmlParser {
     private StringBuilder xml;
     private BufferedReader reader;
+    private final static int SIZE_OF_BUFFER_STRING = 100;
 
     public void readFromFile(String filePath) throws IOException {
         reader = new BufferedReader(new FileReader(new File(filePath)));
         xml = new StringBuilder();
 
-        readCharsFromFile(100);
+        readCharsFromFile(SIZE_OF_BUFFER_STRING);
     }
 
     public void readCharsFromFile(int number){
